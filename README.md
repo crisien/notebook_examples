@@ -1,2 +1,2 @@
 # notebook_examples
-This repository contains example python notebooks
+Example python notebooks
