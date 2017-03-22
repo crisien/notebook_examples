@@ -33,7 +33,7 @@ sst=tmp
 del tmp
 
 time = time[360:1560]
-#plot january 1900
+#plot january 1998
 lon, lat = np.meshgrid(lon,lat)
 m = Basemap(projection='cyl',llcrnrlat=-90,urcrnrlat=90,\
             llcrnrlon=-180,urcrnrlon=180,resolution='c')
