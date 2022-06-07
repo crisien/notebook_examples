@@ -12,7 +12,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 from mpl_toolkits.basemap import Basemap
 
-ds = xr.open_dataset('http://wilson.coas.oregonstate.edu:8080/thredds/dodsC/CIOSS/HadISST/Monthly/HadISST_sst.nc')
+ds = xr.open_dataset('http://chapman.ceoas.oregonstate.edu/thredds/dodsC/CIOSS/HadISST/Monthly/HadISST_sst.nc')
 ds.info()
 
 sst = ds.sst.data
